@@ -58,6 +58,7 @@ message = hello;*
 ```
 
 <aside>
+  
 ⚠️ **Declaring twice triggers an error**
 
 A variable should be declared only once.
@@ -85,6 +86,7 @@ When the name contains multiple words, [camelCase](https://en.wikipedia.org/wik
 What’s interesting – the dollar sign `'$'` and the underscore `'_'` can also be used in names. They are regular symbols, just like letters, without any special meaning.
 
 <aside>
+  
 ℹ️ **Case matters**
 
 Variables named `apple` and `APPLE` are two different variables.
@@ -92,6 +94,7 @@ Variables named `apple` and `APPLE` are two different variables.
 </aside>
 
 <aside>
+  
 ℹ️ **Reserved names**
 
 There is a [list of reserved words](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#Keywords), which cannot be used as variable names because they are used by the language itself.
