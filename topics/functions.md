@@ -16,6 +16,7 @@ myFunction();
 ```
 
 <aside>
+  
 ℹ️ **Note:** This form of creating a function is also known as *function declaration*. It is always hoisted, so you can call function above function definition and it will work fine.
 
 </aside>
@@ -90,6 +91,7 @@ alert( userName ); // *John*, unchanged, the function did not access the outer v
 ```
 
 <aside>
+  
 ℹ️ **Global variables**
 
 Variables declared outside of any function, such as the outer `userName` in the code above, are called *global*.
@@ -105,16 +107,19 @@ It’s a good practice to minimize the use of global variables. Modern code has 
 Some functions require **parameters** to be specified when you are invoking them — these are values that need to be included inside the function parentheses, which it needs to do its job properly.
 
 <aside>
+  
 ℹ️ **Note:** Parameters are sometimes called arguments, properties, or even attributes.
 
 </aside>
 
 <aside>
+  
 ℹ️ **Note:** When you need to specify multiple parameters, they are separated by commas.
 
 </aside>
 
 <aside>
+  
 ℹ️ **Note:**
 
 - A **parameter** is the variable listed inside the parentheses in the function declaration (it’s a declaration time term).
@@ -409,6 +414,7 @@ function showMovie(age) {
 In the code above, if `checkAge(age)` returns `false`, then `showMovie` won’t proceed to the `alert`.
 
 <aside>
+  
 ℹ️ **A function with an empty `return` or without it returns `undefined`**
 
 If a function does not return a value, it is the same as if it returns `undefined`:
@@ -432,6 +438,7 @@ alert( doNothing() === undefined ); // true
 </aside>
 
 <aside>
+  
 ⚠️ **Never add a newline between `return` and the value**
 
 For a long expression in `return`, it might be tempting to put it on a separate line, like this:
@@ -491,6 +498,7 @@ checkPermission(..) // checks a permission, returns true/false
 With prefixes in place, a glance at a function name gives an understanding what kind of work it does and what kind of value it returns.
 
 <aside>
+  
 ℹ️ **One function – one action**
 
 A function should do exactly what is suggested by its name, no more.
@@ -508,6 +516,7 @@ These examples assume common meanings of prefixes. You and your team are free to
 </aside>
 
 <aside>
+  
 ℹ️ **Ultrashort function names**
 
 Functions that are used *very often* sometimes have ultrashort names.
