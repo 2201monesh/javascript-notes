@@ -3,50 +3,50 @@
 This is an open-source resource for JavaScript learners. While learning Web Development through [**The Odin Project**](https://github.com/TheOdinProject), there are many resources referenced to learn JS, and these notes are basically of them only. The source of these notes is mostly from [The Odin Project](https://www.theodinproject.com/), [Mozilla Developer Network Docs](https://developer.mozilla.org/) and [JavaScript.info](https://javascript.info). But other sources may also be used for the better understanding of a topic.
 
 ## Index
-- [Datatypes](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/datatypes.md).
-    - [Number](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/datatypes.md#number).
-    - [BigInt](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/datatypes.md#bigint).
-    - [String](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/datatypes.md#string).
-    - [Boolean](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/datatypes.md#boolean-logical-type).
-    - [The "null" value (Object)](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/datatypes.md#the-null-value).
-    - [Undefined](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/datatypes.md#the-undefined-value).
-    - [Object and symbol](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/datatypes.md#objects-and-symbols).
-    - [The typeof operator](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/datatypes.md#the-typeof-operator).
-- [Numbers and operators](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/Numbers%20and%20Operators.md).
-    - [Terminology](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/Numbers%20and%20Operators.md).
-    - [Numbers](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/Numbers%20and%20Operators.md#numbers).
-        - [Integer precision](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/Numbers%20and%20Operators.md#numbers).
-        - [Float precision](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/Numbers%20and%20Operators.md#floating-precision).
-        - [NaN](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/Numbers%20and%20Operators.md#nan---not-a-number).
-        - [Infinity](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/Numbers%20and%20Operators.md#nan---not-a-number).
-        - [Hexadecimal](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/Numbers%20and%20Operators.md#hexadecimal).
-    - [Operators](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/Numbers%20and%20Operators.md#operators).
-        - [Arithmetic operators](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/Numbers%20and%20Operators.md#arithmetic-operators).
-        - [Assignment operators](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/Numbers%20and%20Operators.md#assignment-operators).
-        - [Comparison operators](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/Numbers%20and%20Operators.md#operators).
-        - [Logical operators](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/Numbers%20and%20Operators.md#logical-operators).
-- [Strings](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/strings.md).
-    - [String concatenation](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/strings.md#concatenating-strings).
-    - [The ".length" method](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/strings.md#length).
-    - [Extracting "substrings"](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/strings.md#extracting-string-parts).        
-- [Variables](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/variables.md).
-    - [Naming](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/variables.md#variable-naming).
-    - [Constants](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/variables.md#constants).
-- [Conditionals](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/conditionals.md).
-    - [If](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/conditionals.md#the-if-statement).
-    - [Else](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/conditionals.md#the-else-statement).
-    - [Else if](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/conditionals.md#the-else-ifstatement).
-    - [Switch](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/conditionals.md#switch-statement).
-    - [Conditional (ternary) operator](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/conditionals.md#conditional-operator-).
-- [Functions](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/functions.md).
-    - [Invoking functions](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/functions.md#invoking-functions).
-    - [Local variables](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/functions.md#local-variables).
-    - [Outer variables](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/functions.md#outer-variables).
-    - [Function parameters](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/functions.md#function-parameters).
-        - [Optional parameters](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/functions.md#optional-parameters).
-        - [Default values](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/functions.md#default-values).
-        - [Alternative default parameters](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/functions.md#alternative-default-parameters).
-    - [Anonymous functions](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/functions.md#anonymous-functions-and-arrow-functions).
-    - [Returning a value](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/functions.md#returning-a-value).
-    - [Naming functions](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/functions.md#naming-a-function).
-    - [Code clarity](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/functions.md#functions--comments).
+- [Datatypes](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/datatypes.md)
+    - [Number](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/datatypes.md#number)
+    - [BigInt](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/datatypes.md#bigint)
+    - [String](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/datatypes.md#string)
+    - [Boolean](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/datatypes.md#boolean-logical-type)
+    - [The "null" value (Object)](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/datatypes.md#the-null-value)
+    - [Undefined](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/datatypes.md#the-undefined-value)
+    - [Object and symbol](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/datatypes.md#objects-and-symbols)
+    - [The typeof operator](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/datatypes.md#the-typeof-operator)
+- [Numbers and operators](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/Numbers%20and%20Operators.md)
+    - [Terminology](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/Numbers%20and%20Operators.md)
+    - [Numbers](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/Numbers%20and%20Operators.md#numbers)
+        - [Integer precision](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/Numbers%20and%20Operators.md#numbers)
+        - [Float precision](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/Numbers%20and%20Operators.md#floating-precision)
+        - [NaN](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/Numbers%20and%20Operators.md#nan---not-a-number)
+        - [Infinity](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/Numbers%20and%20Operators.md#nan---not-a-number)
+        - [Hexadecimal](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/Numbers%20and%20Operators.md#hexadecimal)
+    - [Operators](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/Numbers%20and%20Operators.md#operators)
+        - [Arithmetic operators](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/Numbers%20and%20Operators.md#arithmetic-operators)
+        - [Assignment operators](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/Numbers%20and%20Operators.md#assignment-operators)
+        - [Comparison operators](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/Numbers%20and%20Operators.md#operators)
+        - [Logical operators](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/Numbers%20and%20Operators.md#logical-operators)
+- [Strings](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/strings.md)
+    - [String concatenation](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/strings.md#concatenating-strings)
+    - [The ".length" method](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/strings.md#length)
+    - [Extracting "substrings"](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/strings.md#extracting-string-parts).       
+- [Variables](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/variables.md)
+    - [Naming](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/variables.md#variable-naming)
+    - [Constants](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/variables.md#constants)
+- [Conditionals](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/conditionals.md)
+    - [If](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/conditionals.md#the-if-statement)
+    - [Else](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/conditionals.md#the-else-statement)
+    - [Else if](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/conditionals.md#the-else-ifstatement)
+    - [Switch](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/conditionals.md#switch-statement)
+    - [Conditional (ternary) operator](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/conditionals.md#conditional-operator-)
+- [Functions](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/functions.md)
+    - [Invoking functions](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/functions.md#invoking-functions)
+    - [Local variables](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/functions.md#local-variables)
+    - [Outer variables](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/functions.md#outer-variables)
+    - [Function parameters](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/functions.md#function-parameters)
+        - [Optional parameters](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/functions.md#optional-parameters)
+        - [Default values](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/functions.md#default-values)
+        - [Alternative default parameters](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/functions.md#alternative-default-parameters)
+    - [Anonymous functions](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/functions.md#anonymous-functions-and-arrow-functions)
+    - [Returning a value](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/functions.md#returning-a-value)
+    - [Naming functions](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/functions.md#naming-a-function)
+    - [Code clarity](https://github.com/prakhartiwari0/javascript-notes/blob/main/topics/functions.md#functions--comments)
